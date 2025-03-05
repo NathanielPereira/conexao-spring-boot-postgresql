@@ -3,7 +3,7 @@ package dio.aula.model;
 import jakarta.persistence.*; // Importa todas as anotações do JPA
 
 @Entity
-@Table(name = "users") // Define o nome da tabela no banco de dados
+@Table(name = "tab_user") // Define o nome da tabela no banco de dados
 public class User {
     
     @Id
